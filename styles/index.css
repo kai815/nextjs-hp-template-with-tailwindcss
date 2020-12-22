@@ -6,10 +6,10 @@
 @tailwind components;
 /* Stop purging. */
 
-
-
 /* Write your own custom component styles here */
-
+.theme-navy {
+  background-color: #243a5d;
+}
 
 /* Start purging... */
 @tailwind utilities;
