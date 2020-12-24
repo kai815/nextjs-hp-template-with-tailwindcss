@@ -6,7 +6,7 @@ type NavyButton = {
 
 const NavyButton: FC<NavyButton> = (props) => {
   return (
-    <button className="theme-navy text-white rounded-xl p-2">
+    <button className="theme-navy text-white p-2 border-radius-30">
       {props.text}
     </button>
   );
