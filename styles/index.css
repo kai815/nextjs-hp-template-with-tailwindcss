@@ -14,6 +14,11 @@
   border-radius: 30px;
 }
 
+.heading-underline {
+  border-bottom: 0.125rem solid #243a5d;
+  width: 300px;
+}
+
 /* Start purging... */
 @tailwind utilities;
 /* Stop purging. */
