@@ -10,6 +10,15 @@
 .theme-navy {
   background-color: #243a5d;
 }
+
+.theme-navy-text {
+  color: #243a5d;
+}
+
+.theme-navy-border {
+  border: 0.5px solid #243a5d;
+}
+
 .border-radius-30 {
   border-radius: 30px;
 }
