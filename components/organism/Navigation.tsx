@@ -5,6 +5,7 @@ const Navigation: FC = () => {
     <div className="theme-green-background">
       <p className="text-white">テスト1</p>
       <p className="text-white">テスト2</p>
+      <p className="text-white">テスト3</p>
     </div>
   );
 };
