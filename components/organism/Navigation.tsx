@@ -2,11 +2,11 @@ import React, { FC } from "react";
 
 const Navigation: FC = () => {
   return (
-    <div className="theme-green-background px-2">
-      <p className="text-white">テスト1</p>
-      <p className="text-white">テスト2</p>
-      <p className="text-white">テスト3</p>
-    </div>
+    <nav className="text-center theme-green-background px-2">
+      <p className="text-white">TOP</p>
+      <p className="text-white">サービス</p>
+      <p className="text-white">お問い合わせ</p>
+    </nav>
   );
 };
 
