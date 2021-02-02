@@ -27,17 +27,18 @@
 }
 
 .heading-underline {
-  border-bottom: solid 3px #ffc778;
+  border-bottom: solid 3px #243a5d;
   position: relative;
+  width: 50%;
 }
 
 .heading-underline:after {
   position: absolute;
   content: "";
   display: block;
-  border-bottom: solid 3px skyblue;
+  border-bottom: solid 3px #85be2e;
   bottom: -3px;
-  width: 50%;
+  width: 10%;
 }
 /* Start purging... */
 @tailwind utilities;
