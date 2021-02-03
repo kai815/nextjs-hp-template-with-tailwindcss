@@ -18,8 +18,13 @@
 .theme-navy-border {
   border: 0.5px solid #243a5d;
 }
+
 .theme-green-background {
   background-color: #85be2e;
+}
+
+.theme-navy-background {
+  background-color: #243a5d;
 }
 
 .border-radius-30 {
