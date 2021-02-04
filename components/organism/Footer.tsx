@@ -1,4 +1,5 @@
 import React, { FC } from "react";
+import WhiteButton from "../atoms/Button/WhiteButton";
 
 const Footer: FC = () => {
   return (
@@ -14,6 +15,9 @@ const Footer: FC = () => {
         <li>
           <p className="text-white">お問い合わせ</p>
         </li>
+        <div className="white">
+          <WhiteButton text="お問い合わせ" />
+        </div>
       </ul>
     </nav>
   );
