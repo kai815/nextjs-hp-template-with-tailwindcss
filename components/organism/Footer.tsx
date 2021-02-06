@@ -15,9 +15,7 @@ const Footer: FC = () => {
         <li>
           <p className="text-white">お問い合わせ</p>
         </li>
-        <div className="white">
-          <WhiteButton text="お問い合わせ" />
-        </div>
+        <WhiteButton text="お問い合わせ" />
       </ul>
     </nav>
   );

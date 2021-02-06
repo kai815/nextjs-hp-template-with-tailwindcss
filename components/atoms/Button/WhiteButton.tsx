@@ -6,7 +6,7 @@ type WhiteButton = {
 
 const WhiteButton: FC<WhiteButton> = (props) => {
   return (
-    <button className="white theme-navy-text theme-navy-border p-2 border-radius-30">
+    <button className="bg-white theme-navy-text theme-navy-border p-2 border-radius-30">
       {props.text}
     </button>
   );
