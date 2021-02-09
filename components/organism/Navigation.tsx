@@ -4,6 +4,9 @@ const Navigation: FC = () => {
   return (
     <nav className="theme-green-background h-screen px-2">
       <h2 className="text-white">車のあいみつ</h2>
+      <div className="absolute top-2.5 right-6">
+        <span className="text-white">×</span>
+      </div>
       <ul>
         <li>
           <p className="text-white">TOP</p>
