@@ -5,7 +5,7 @@ const Navigation: FC = () => {
     <nav className="theme-green-background h-screen px-2">
       <h2 className="text-white">車のあいみつ</h2>
       <div className="absolute top-2.5 right-6">
-        <span className="text-white">×</span>
+        <span className="text-white inline-block p-2">×</span>
       </div>
       <ul>
         <li>
