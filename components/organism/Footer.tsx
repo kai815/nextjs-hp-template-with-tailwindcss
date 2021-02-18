@@ -8,7 +8,7 @@ const Footer: FC = () => {
         <div>
           <WhiteButton text="お問い合わせ" />
         </div>
-        <div>
+        <div className="p-2">
           <h2 className="text-white">車のあいみつ</h2>
         </div>
       </div>
