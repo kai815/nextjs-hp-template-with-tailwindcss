@@ -5,8 +5,14 @@ type NavyButton = {
 };
 
 const NavyButton: FC<NavyButton> = (props) => {
+  const onClickButton = () => {
+    console.log("Click");
+  };
   return (
-    <button className="theme-navy text-white p-2 border-radius-30">
+    <button
+      className="theme-navy text-white p-2 border-radius-30"
+      onClick={onClickButton}
+    >
       {props.text}
     </button>
   );
