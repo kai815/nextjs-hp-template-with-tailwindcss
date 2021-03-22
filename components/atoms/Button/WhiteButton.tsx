@@ -1,13 +1,20 @@
-import React, { FC } from "react";
+import React from "react";
 
-type WhiteButton = {
+type Props = {
   text: string;
-};
+} & React.DetailedHTMLProps<
+  React.ButtonHTMLAttributes<HTMLButtonElement>,
+  HTMLButtonElement
+>;
 
-const WhiteButton: FC<WhiteButton> = (props) => {
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
+const WhiteButton = ({ text, ...props }: Props) => {
   return (
-    <button className="bg-white theme-navy-text theme-navy-border p-2 border-radius-30">
-      {props.text}
+    <button
+      {...props}
+      className="bg-white theme-navy-text theme-navy-border p-2 border-radius-30"
+    >
+      {text}
     </button>
   );
 };
