@@ -1,19 +1,16 @@
-import React, { FC } from "react";
+import React, { VFC } from "react";
 
-type NavyButton = {
+type Props = {
   text: string;
-};
+} & React.DetailedHTMLProps<
+  React.ButtonHTMLAttributes<HTMLButtonElement>,
+  HTMLButtonElement
+>;
 
-const NavyButton: FC<NavyButton> = (props) => {
-  const onClickButton = () => {
-    console.log("Click");
-  };
+const NavyButton: VFC<Props> = ({ text, ...props }) => {
   return (
-    <button
-      className="theme-navy text-white p-2 border-radius-30"
-      onClick={onClickButton}
-    >
-      {props.text}
+    <button {...props} className="theme-navy text-white p-2 border-radius-30">
+      {text}
     </button>
   );
 };

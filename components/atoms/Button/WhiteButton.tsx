@@ -1,4 +1,4 @@
-import React from "react";
+import React, { VFC } from "react";
 
 type Props = {
   text: string;
@@ -7,8 +7,7 @@ type Props = {
   HTMLButtonElement
 >;
 
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-const WhiteButton = ({ text, ...props }: Props) => {
+const WhiteButton: VFC<Props> = ({ text, ...props }) => {
   return (
     <button
       {...props}
