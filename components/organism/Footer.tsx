@@ -1,7 +1,7 @@
-import React, { FC } from "react";
+import React, { VFC } from "react";
 import WhiteButton from "../atoms/Button/WhiteButton";
 
-const Footer: FC = () => {
+const Footer: VFC = () => {
   return (
     <nav className="theme-navy-background flex justify-center">
       <div className="flex justify-center flex-col">

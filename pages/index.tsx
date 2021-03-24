@@ -1,7 +1,7 @@
-import React, { FC } from "react";
+import React, { VFC } from "react";
 import Nav from "../components/nav";
 
-const IndexPage: FC = () => {
+const IndexPage: VFC = () => {
   return (
     <div>
       <Nav />

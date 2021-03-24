@@ -1,6 +1,6 @@
-import React, { FC } from "react";
+import React, { VFC } from "react";
 
-const Test: FC = () => {
+const Test: VFC = () => {
   return <div className="text-pink-700">Test</div>;
 };
 
