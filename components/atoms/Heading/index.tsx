@@ -1,11 +1,11 @@
-import React, { FC } from "react";
+import React, { VFC } from "react";
 
-type Heading = {
+type Props = {
   text: string;
 };
 
-const Heading: FC<Heading> = (props) => {
-  return <h3>{props.text}</h3>;
+const Heading: VFC<Props> = ({ text }) => {
+  return <h3>{text}</h3>;
 };
 
 export default Heading;

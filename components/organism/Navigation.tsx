@@ -1,6 +1,6 @@
-import React, { FC } from "react";
+import React, { VFC } from "react";
 
-const Navigation: FC = () => {
+const Navigation: VFC = () => {
   return (
     <nav className="theme-green-background h-screen px-2">
       <h2 className="text-white">車のあいみつ</h2>

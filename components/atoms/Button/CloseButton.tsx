@@ -1,5 +1,5 @@
-import React, { FC } from "react";
+import React, { VFC } from "react";
 
-export const CloseButton: FC = () => {
+export const CloseButton: VFC = () => {
   return <div></div>;
 };
