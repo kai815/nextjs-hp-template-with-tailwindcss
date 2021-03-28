@@ -4,12 +4,15 @@ import Link from "next/link";
 type Props = {
   text: string;
   href: string;
+  textColorClass: string;
 };
 
-const LinkText: VFC<Props> = ({ text, href }) => {
+const LinkText: VFC<Props> = ({ text, href, textColorClass }) => {
   return (
     <>
-      <Link href={href}>{text}</Link>
+      <Link href={href} prefetch>
+        <span className={textColorClass}>{text}</span>
+      </Link>
     </>
   );
 };
