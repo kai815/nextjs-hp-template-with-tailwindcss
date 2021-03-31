@@ -4,8 +4,8 @@ type UnderLineHeading = {
   text: string;
 };
 
-const UnderLineHeading: VFC<UnderLineHeading> = (props) => {
-  return <h3 className="heading-underline">{props.text}</h3>;
+const UnderLineHeading: VFC<UnderLineHeading> = ({ text }) => {
+  return <h3 className="heading-underline">{text}</h3>;
 };
 
 export default UnderLineHeading;
