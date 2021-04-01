@@ -10,8 +10,7 @@ type Props = {
 const LinkText: VFC<Props> = ({ text, href, textColorClass }) => {
   return (
     <>
-      {/* TODO環境変数でプリフェッチ変更 */}
-      <Link href={href} prefetch={false}>
+      <Link href={href} prefetch={!process.env.STORYBOOK}>
         <span className={textColorClass}>{text}</span>
       </Link>
     </>
