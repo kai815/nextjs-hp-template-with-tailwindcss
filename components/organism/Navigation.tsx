@@ -1,4 +1,5 @@
 import React, { VFC } from "react";
+import LinkText from "../atoms/Link/Text";
 
 const Navigation: VFC = () => {
   return (
@@ -10,13 +11,17 @@ const Navigation: VFC = () => {
       <div className="flex flex-col items-center">
         <ul>
           <li>
-            <p className="text-white">TOP</p>
+            <LinkText text="TOP" href="/" textColorClass="text-white" />
           </li>
           <li>
-            <p className="text-white">サービス</p>
+            <LinkText text="サービス" href="/" textColorClass="text-white" />
           </li>
           <li>
-            <p className="text-white">お問い合わせ</p>
+            <LinkText
+              text="お問い合わせ"
+              href="/"
+              textColorClass="text-white"
+            />
           </li>
         </ul>
       </div>
