@@ -9,11 +9,9 @@ type Props = {
 
 const LinkText: VFC<Props> = ({ text, href, textColorClass }) => {
   return (
-    <>
-      <Link href={href} prefetch={!process.env.STORYBOOK}>
-        <span className={textColorClass}>{text}</span>
-      </Link>
-    </>
+    <Link href={href} prefetch={!process.env.STORYBOOK}>
+      <span className={textColorClass}>{text}</span>
+    </Link>
   );
 };
 
